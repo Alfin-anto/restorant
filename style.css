@@ -1,0 +1,361 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'kanit',sans-serif;
+     overflow-x: hidden;
+
+}
+#logo-color i img{
+    width: 50px;
+    box-shadow: 0px 0px 5px black;
+    text-shadow: black;
+ 
+}
+
+
+.navbar-brand{
+ margin-left: 5px;
+ color:rgb(255,166,0);
+ font-weight: bold;
+ font-size: 20px;
+
+}
+#menu-color{
+  background-color:  rgb(216, 148, 20);
+
+}
+ .container{
+align-items: center;
+display: inline;
+ 
+ 
+ 
+  
+}
+.navbar-brand:hover{
+    color: rgb(255,166,0);
+    
+}
+
+
+.navbar-nav{
+
+    margin-left: 100px;
+    color: rgb(0, 0, 0);
+  
+}
+
+.nav-item{
+    margin-left: 50px;
+    font-size: larger;
+  
+}
+#first{
+    border-bottom: 2px solid rgb(239, 165, 16);
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    transition: transform 0.3s ease
+     
+    
+}
+.nav-link:hover{
+    background-color: rgb(255, 166, 0);
+    box-shadow: 0 0 5px rgba(255,166,0),
+                 0 0 5px rgba(255,166,0),
+                 0 0 20px rgba(255,166,0),
+                 0 0 60x rgba(255,166,0),
+                 0 0 150px rgb(255,166,0) ;   
+   
+}
+.main-content{
+    width: 100%;
+    height: 97vh;
+    background-image: url(./image/burger1.webp);
+    background-size: cover;
+    background-position: 73%;
+   
+}
+.content{
+    padding-top: 160px;
+    margin-left: 50px;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+}
+#btn1 button{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgba(255,166,0);
+    border: none;
+    transition: tranform 0.3s ease;
+    cursor: pointer;
+}
+.form-group{
+    /* text-shadow: 2px 1px 5px black;  */
+   
+    background-color: rgb(255,166,0);
+    transition: 0.50s ease-in;
+    box-shadow: 0px 0px 5px black;
+ 
+}
+
+.btn1 button:hover{
+    color: rgb(246, 242, 5);
+    background-color: coral;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+}
+#btn1 button:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0),
+                 0 0 20px rgba(255,166,0),
+                 0 0 60px rgba(255,166,0),
+                 0 0 150px rgba(255,166,0);
+}
+.card{
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.best-card .card:hover{
+    transform: translateY(-15px);
+}
+.best-card h1{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+.best-card p{
+    font-weight: bold;
+    color: white;
+    text-shadow:  2px 1px 5px black-;
+}
+.container{
+    margin-top: 100px;
+
+}
+.card-content h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-content h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-content h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-content p{
+
+    font-weight: bold;
+}
+
+.banner{
+     width: 100%;
+    height: 70vh; 
+    background-image: linear-gradient(rgba(43, 42, 46, 0),rgba(0,0,0,0.3)),url(./image/wp7845939.jpg);
+    background-repeat: no-repeat;
+    background-position: 69%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+   
+}
+.banner h1{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 5px;
+    text-shadow: 2px 1px 5px rgb(248, 143, 6);
+}
+
+.change-content:after{
+    content: '';
+   
+    animation: changetext 10s infinite linear;
+    color: rgba(255,166,0);
+}
+@keyframes changetext{
+    0%{content:"chesse burger";}
+    20%{content:"chicken burger";}
+    60%{content:"beef burger";}
+    80%{content:"sandwich";}
+    100%{content:"Butter chicken";}
+}
+.banner h2{
+    font-size: 50px;
+    color: rgba(255,166,0);
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 5px;
+    text-shadow: 2px 1px 5px rgb(248, 143, 6);
+}
+#btn2 button{
+    width: 200px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgb(255,166,0);
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+#btn2 button:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0), 
+                 0 0 20px rgba(255,166,0),
+                  0 0 60px rgba(255,166,0), 
+                  0 0 150px rgba(255,166,0);
+}
+.new-card{
+    margin-top: 50px;
+    cursor: pointer;
+}
+.new-card h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#btn3{
+    text-align: center;
+}
+#btn3 button{
+    width: 150px;
+    height: 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(255,166,0);
+    transition: 0.50s ease-in;
+    cursor: pointer;
+}
+#btn3 button:hover{
+    background-color: black;
+    color: white;
+
+}
+#btn4{
+    text-align: center;
+    margin-top: 30px;
+}
+#btn4 button{
+    width: 200px;
+    height: 35px;
+    background-color: rgb(255,166,0);
+    border: none;
+    font-weight: bold;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+#btn4 button:hover{
+    transform: translateY(-10px);
+}
+.banner2 h1{
+   color: rgb(245, 197, 152);
+   font-weight: 600;
+   font-size: 4rem;
+
+}
+.banner2 h2{
+    color: rgb(251, 200, 152);
+    font-weight: 600;
+    font-size: 4rem;
+    
+}
+.banner2 h1:hover{
+   
+    color: white;   
+}
+.banner2 h2:hover{
+   
+    color: white;   
+}
+ 
+
+
+
+.banner2{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./image/fast.jpg);
+    background-position: 50%;
+    /* align-items: center; */
+    padding-left: 45%;
+    text-shadow: 2px 1px 5px rgb(248, 143, 6);
+
+    /* margin-top: 100px;
+    margin-left: 1px; */
+    
+}
+banner h1{
+    font-weight: bold;
+    color: white;
+  
+    font-size: 60px;
+    padding-top: 100px;
+    text-shadow: 2px 1px 5px rgb(248, 143, 6);
+    margin-left: 10px;
+}
+
+banner h2{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255,166,0);
+    font-size: 60px;
+    padding-top: 100px;
+    display: inline-block;
+    margin-left: 10px;
+    text-shadow: 2px 1px 5px rgb(248, 143, 6);
+}
+.about-us{
+    margin-top: 0;
+}
+#footer{
+    background-color: rgb(33, 21, 21);
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: 50px;
+   
+
+}
+#footer .footer-links a{
+    color: white;
+    font-weight: bold;
+    padding-left: 15px;
+     margin-bottom: 15px;
+
+}
+#footer .footer-links a:first-child{
+    padding-left: 0;
+}
+#footer .footer-links a:hover{
+    color: rgba(255,166,0)
+}
+.copyright{
+
+    color: white;
+}
+.copyright{
+   justify-content: center;
+}
+.footer-links{
+    margin-top: -80px;
+}
